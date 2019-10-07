@@ -613,8 +613,11 @@ rf_final_pred <- rf_final %>%
 # Exporting the Final Outcome
 
 ```{r}
-output %>%
+output <- output %>%
+  mutate(Predicted_Approve_Loan_Numeric = as.numeric(Predicted_Approve_Loan) - 1) %>%
   write_csv("outcome.csv")
+
+
 ```
 
 <center>
