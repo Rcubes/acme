@@ -1,0 +1,13 @@
+Aprovación de préstamos:
+
+El Banco Acme necesita desarollar un modelo de evaluación de pedidos de préstamos y te ha pasado un dataset que fue recientemente evaluado y que contiene variables como el monto del préstamo, términos de pago, y otros. También contiene información relacionada con el cliente como el estado donde vive, su salario anual y balance de su cuenta bancaria (ref: schema.png).
+
+Usando machine learning, desarrolla un modelo predictor para saber si un pedido debe ser o no aprobado.
+
+El resultado del análisis debe contener una expliación detallada de la solución, visualizaciones de la data, el proceso de pensamiento y las características e inferencias del modelo, todo en un lenguaje asequible. Una persona - no necesariamente del mundo Data sience - debe poder entender los pasos y el razonamiento detrás de toda la implementación.
+
+Para probar tu modelo predice cada uno de las aplicaciones para pedir un prestamo en el archivo test.csv con (0 o 1).
+
+Enviános un link donde podamos descargar:
+(1) El archivo outcome.csv que contenga dos columnas header (Id, Aprove Loan) y la data.
+(2) El jupiter notebook documentando el analisis e implementación del modelo.
